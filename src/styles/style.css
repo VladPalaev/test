@@ -1,0 +1,28 @@
+@import '~normalize.css';
+@import 'fonts.css';
+
+
+body {
+	font-family: 'Roboto';
+}
+
+.container {
+	max-width: 1000px;
+	padding-top: 2rem;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+.logo {
+	background-image: url('@assets/images.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
